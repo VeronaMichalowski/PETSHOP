@@ -362,7 +362,7 @@ header svg {
 
  .suscribite {
     position: relative;
-    right: 25%;
+    right: 20%;
    
 
     
@@ -435,3 +435,7 @@ header svg {
     
     }
     
+@media screen and (){
+
+
+}
