@@ -16,6 +16,11 @@ nav {
   height: 20px;
 }
 
+.menu {
+  display: none;
+  position: relative;
+}
+
 header {
   position: relative;
   display: flex;
@@ -85,8 +90,8 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center ;
-  width: 7%;
-  height: 7%;
+  width: 8%;
+  height: 8%;
   background-color: #f0a83e;
   color: white;
   font-family: "Roboto";
@@ -170,8 +175,9 @@ h5{
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 18px;
   color: #f0a83e;
+  padding: 10px;
+  width: 5%;
 }
 
 .contactanos {
@@ -340,13 +346,16 @@ header svg {
   border-radius: 15px;
   width: 261px;
   height: 35px;
-  margin-right: 10px;
+  margin-right: 5px;
   align-items: center;
+
 }
 
 .sus {
   position: relative;
-  display: flex;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -357,9 +366,6 @@ header svg {
   border-radius: 15px;
   width: 90px;
   height: 35px;
-  align-items: center;
-  justify-content: center;
-  
 }
 
 .localidad > a {
@@ -369,6 +375,7 @@ header svg {
   font-size: 10px;
   line-height: 12px;
   color: #8a8787;
+
 }
 .tel > a {
   font-family: "Roboto";
@@ -388,5 +395,75 @@ header svg {
   color: #8a8787;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 800px) {
+
+.menu {
+  display: block;
+  z-index: 1;
+}
+
+.nav {
+   display: none;
+}
+
+.contenedor2{
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  display:flex;
+  align-items: center;
+  font-size: 30px ;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0%;
+  height: 100px;
+}
+
+.botones2 {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+
+.sus {
+  align-items: center;
+}
+
+
+.suscribite{
+  display: flex;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  
+}
+
+h5 {
+  display:none;
+}
+
+h4 {
+  display:none;
+}
+
+.botones2{
+  padding: 2%;
+  margin-bottom: 30px;
+}
+
+.tenerteaqui{
+  font-size: 20px;
+}
+}
 
